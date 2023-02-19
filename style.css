@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  .container {
+    display: inline-flex;
+    justify-content: center;
+  }
+  .form-container{
+    display:inline-block;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width:50%;
+    max-width:420px;
+    border-radius:15px ;
+    border: 1px solid light gray;
+    padding:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
+  }
+  #userimage{
+    width:40px;
+    height:auto;
+    margin-right: 50px;
+    margin-left: 20px;
+    
+  }
+  #header{
+    margin-left:75px;
+    margin-top:-40px;
+    font-size: 24px;
+    
+  }
+  #name{
+    padding: 10px;
+    width: calc(50% - 24px);
+    margin:10px;
+    border-radius: 8px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  h1{
+    font-family: sans-serif;
+    margin: 10px;
+  }
+  a{
+    margin:10px;
+    color: solid gray;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  #name,#surname,#email,#message,#submit{
+    font-size: 14px;
+    margin:10px ;
+    border-radius: 8px;
+  }
+  #surname{
+    padding:10px;
+    width: calc(50% - 24px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  #email{
+    padding:10px;
+    width: calc(100% - 24px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  #message{
+    width: calc(100% - 24px);
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  #submit{
+    background-color: #6A5ACD;
+    color:white;
+    width: calc(100% - 24px);
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
